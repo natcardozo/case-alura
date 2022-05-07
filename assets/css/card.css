@@ -1,0 +1,37 @@
+.card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #7887B610;
+    margin-right: 25px;
+    min-width: 315px;
+    max-width: 315px;
+}
+
+.card__info {
+    border-bottom: 1px solid #F2F7FE;
+    padding: 28px 20px;
+    padding-bottom: 2.25rem; 
+}
+
+.card__titulo {
+    color: #093366;
+    font-weight: 700;
+    margin-top: 1.25rem;
+}
+
+.card__extra {
+    padding: 17px 20px;
+}
+
+.card__duracao {
+    color: #BEC8D8;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.card__duracao::before {
+    width: 100px;
+    content: url("../img/icons/icon-carga-horaria.svg");
+    margin-right: 10px;
+    vertical-align: -40%;
+}

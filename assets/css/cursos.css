@@ -1,0 +1,34 @@
+.cursos {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.cursos__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.cursos__titulo {
+    color: #093366;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+}
+
+.cursos__navegacao__botao {
+    background-color: #093366;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 32px;
+    padding: 7px 0;
+    width: 32px;
+}
+
+.cursos__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
