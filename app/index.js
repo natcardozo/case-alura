@@ -81,16 +81,16 @@ function listarCursos() {
 
 listarCursos();
 
-const gap = 16;
+const gap = 8;
 const listaDeCursos = document.querySelector(".cursos__lista");
 const proximo = document.querySelector(".proximo");
 const anterior = document.querySelector(".anterior");
 
 proximo.addEventListener("click", e => {
-    listaDeCursos.scrollBy(width + gap, 0);
+    listaDeCursos.scrollBy(1020, 0);
 });
 anterior.addEventListener("click", e => {
-    listaDeCursos.scrollBy(-(width + gap), 0);63
+    listaDeCursos.scrollBy(-1020, 0);
 });
 
 let width = listaDeCursos.offsetWidth;
