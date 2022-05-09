@@ -1,6 +1,6 @@
 .cursos {
-    width: 1200px;
     margin: 100px auto;
+    width: 1200px;
 }
 
 .cursos__cabecalho {
@@ -26,9 +26,19 @@
     width: 32px;
 }
 
+.cursos__navegacao__botao--inativo {
+    background-color: grey;
+}
+
 .cursos__lista {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.cursos__lista__conteudo {
+    display: flex;
+    flex-direction: row;
 }
