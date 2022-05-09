@@ -26,10 +26,6 @@
     width: 32px;
 }
 
-.cursos__navegacao__botao--inativo {
-    background-color: grey;
-}
-
 .cursos__lista {
     display: flex;
     flex-direction: row;
